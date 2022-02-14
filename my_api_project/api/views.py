@@ -1,7 +1,7 @@
 from encodings import search_function
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from base_api.models import Item
+from base_app.models import Item
 from .serializers import ItemSerializer
 
 

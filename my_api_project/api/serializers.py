@@ -2,7 +2,7 @@
 #data type that the response method can understand.
 
 from rest_framework import serializers
-from base_api.models import Item
+from base_app.models import Item
 
 class ItemSerializer(serializers.ModelSerializer):
     class Meta:
